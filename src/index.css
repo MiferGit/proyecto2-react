@@ -1,0 +1,38 @@
+:root {
+  font-family: Poppins, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ *, *::before, *::after {
+  box-sizing: inherit;
+ }
+
+ * {
+  margin: 0;
+  padding: 0;
+
+ }
+
+ body {
+  margin: 0;
+ 
+}
+
+ h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+ }
+
+  video, svg {
+  max-width: 100%;
+ }
+
+ input, button, textarea, select {
+  font: inherit;
+ }
